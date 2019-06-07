@@ -10,6 +10,9 @@ import postgress from '../assets/images/postgress.png'
 import reactlogo from '../assets/images/reactlogo.png'
 import sql from '../assets/images/sql.png'
 import sass from '../assets/images/sass.png'
+import calendar from '../assets/images/calendar.png'
+import recipe from '../assets/images/recipe.png'
+import allrecipes from '../assets/images/allrecipes.png'
 
 class Homepage extends React.Component {
     render() {
@@ -25,7 +28,7 @@ class Homepage extends React.Component {
                             <header className="major">
                                 <h2>Tiago Maffei</h2>
                             </header>
-                            <p> Aspiring web developer seeking opportunities to learn and grow.  I am problem solving oriented professional, proficient with JavaScript, React, Node.</p>
+                            <p> Aspiring web developer seeking opportunities to learn and grow.  I am a problem solving oriented professional, proficient with JavaScript, React, Node.</p>
                         </div>
                         <div className="col-6">
                             <span className="image fit"><img src='https://s3-us-west-1.amazonaws.com/pantrify2/19956113_10155488077464813_4869888206858722832_o+(1).jpg' alt="" /></span>
@@ -33,12 +36,12 @@ class Homepage extends React.Component {
                     </div>
                 </section>
 
+
                 <section id="two" className="main style2">
                     <div className="grid-wrapper">
                         <div className="col-6">
                             <header className="major">
-                                <h2>Skills<br />
-                                    web dev</h2>
+                                <h2>Skills</h2>
                             </header>
                             <p className='skill-text'>Full stack web developer with emphasis on React.  Among others I have experience with the following:</p>
                         </div>
@@ -55,6 +58,7 @@ class Homepage extends React.Component {
                         </div>
 
                     </div>
+                
                 </section>
 
                 <section id="three" className="main style1 special">
@@ -67,28 +71,28 @@ class Homepage extends React.Component {
                         </div>
 
                         <div className="col-4">
-                            <span className="image fit"><img src='' alt="" /></span>
+                            <span className="image fit"><img src={recipe} alt="" /></span>
                             <h3>Project1</h3>
                             <p>This is my first project.</p>
-                            <ul className="actions">
+                            {/* <ul className="actions">
                                 <li><a href="#" className="button">More</a></li>
-                            </ul>
+                            </ul> */}
                         </div>
                         <div className="col-4">
-                            <span className="image fit"><img src='' alt="" /></span>
+                            <span className="image fit"><img src={calendar} alt="" /></span>
                             <h3>Project2</h3>
                             <p>My second project and its description</p>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a href="https://www.pantrify.us" className="button">Visit</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
-                            <span className="image fit"><img src='https://s3-us-west-1.amazonaws.com/pantrify2/Screen+Shot+2019-05-24+at+8.17.55+AM.jpg' alt="" /></span>
+                            <span className="image fit"><img src={allrecipes} alt="" /></span>
                             <h3>Pantrify</h3>
                             <p>Meal planner web app. Allows the user to collect recipes, make shopping lists and manage their pantry.</p>
-                            <ul className="actions">
+                            {/* <ul className="actions">
                                 <li><a href="https://www.pantrify.us" className="button">Visit</a></li>
-                            </ul>
+                            </ul> */}
                         </div>
 
                     </div>
