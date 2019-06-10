@@ -58,7 +58,7 @@ class Homepage extends React.Component {
                         </div>
 
                     </div>
-                
+
                 </section>
 
                 <section id="three" className="main style1 special">
@@ -70,28 +70,30 @@ class Homepage extends React.Component {
                             <p>These are some of the projects that exemplify my skill set.</p>
                         </div>
 
-                        <div className="col-4">
-                            <span className="image fit"><img src={recipe} alt="" /></span>
-                            <h3>Project1</h3>
-                            <p>This is my first project.</p>
-                            {/* <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
-                            </ul> */}
-                        </div>
-                        <div className="col-4">
-                            <span className="image fit"><img src={calendar} alt="" /></span>
-                            <h3>Project2</h3>
-                            <p>My second project and its description</p>
-                            <ul className="actions">
-                                <li><a href="https://www.pantrify.us" className="button">Visit</a></li>
-                            </ul>
-                        </div>
+
                         <div className="col-4">
                             <span className="image fit"><img src={allrecipes} alt="" /></span>
                             <h3>Pantrify</h3>
                             <p>Meal planner web app. Allows the user to collect recipes, make shopping lists and manage their pantry.</p>
                             {/* <ul className="actions">
                                 <li><a href="https://www.pantrify.us" className="button">Visit</a></li>
+                            </ul> */}
+                        </div>
+                        <div className="col-4">
+                            <span className="image fit"><img src={recipe} alt="" /></span>
+                            <h3>Pantrify</h3>
+                            <p>The recipe card view allows the user to add all inghredients of that particular recipe to a shopping list.  In the shopping view the user can place items he bought in the pantry.</p>
+                            <ul className="actions">
+                                <li><a href="https://www.pantrify.us" className="button">Visit</a></li>
+                            </ul>
+
+                        </div>
+                        <div className="col-4">
+                            <span className="image fit"><img src={calendar} alt="" /></span>
+                            <h3>Pantrify</h3>
+                            <p>The calendar view allows user to plan their meals at the click of a button.  The color code also alerts users if they have all ingredients needed to cook the recipe or not.</p>
+                            {/* <ul className="actions">
+                                <li><a href="#" className="button">More</a></li>
                             </ul> */}
                         </div>
 
