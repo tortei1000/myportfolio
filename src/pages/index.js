@@ -109,7 +109,7 @@ class Homepage extends React.Component {
                             <span className="image fit"><img src={gigtime2} alt="" /></span>
                             <p>Add individual tasks in a gig, making a detailed and organized plan for gig completion.</p>
                             <ul className="actions">
-                                <li><a href="https://www.gig-time.com" className="button" target="_blank">Visit</a></li>
+                                <li><a href="https://gig-time.com" className="button" target="_blank">Visit</a></li>
                             </ul>
 
                         </div>
