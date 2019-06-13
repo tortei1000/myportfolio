@@ -13,6 +13,9 @@ import sass from '../assets/images/sass.png'
 import calendar from '../assets/images/calendar.png'
 import recipe from '../assets/images/recipe.png'
 import allrecipes from '../assets/images/allrecipes.png'
+import gigtime1 from '../assets/images/gigtime1.png'
+import gigtime2 from '../assets/images/gigtime2.png'
+import gigtime3 from '../assets/images/gigtime3.png'
 
 class Homepage extends React.Component {
     render() {
@@ -68,47 +71,69 @@ class Homepage extends React.Component {
                                 <h2>Projects:</h2>
                             </header>
                             <p>These are some of the projects that exemplify my skill set.</p>
+                            <p className="project-title">PANTRIFY:</p>
                         </div>
-
 
                         <div className="col-4">
                             <span className="image fit"><img src={allrecipes} alt="" /></span>
-                            <h3>Pantrify</h3>
                             <p>Meal planner web app. Allows the user to collect recipes, make shopping lists and manage their pantry.</p>
-                            {/* <ul className="actions">
-                                <li><a href="https://www.pantrify.us" className="button">Visit</a></li>
-                            </ul> */}
                         </div>
                         <div className="col-4">
                             <span className="image fit"><img src={recipe} alt="" /></span>
-                            <h3>Pantrify</h3>
-                            <p>The recipe card view allows the user to add all inghredients of that particular recipe to a shopping list.  In the shopping view the user can place items he bought in the pantry.</p>
+                            <p>The recipe card view allows the user to add all ingredients of that particular recipe to a shopping list.  In the shopping view the user can place items he bought in the pantry.</p>
                             <ul className="actions">
-                                <li><a href="https://www.pantrify.us" className="button">Visit</a></li>
+                                <li><a href="https://www.pantrify.us" className="button" target="_blank">Visit</a></li>
                             </ul>
 
                         </div>
                         <div className="col-4">
                             <span className="image fit"><img src={calendar} alt="" /></span>
-                            <h3>Pantrify</h3>
                             <p>The calendar view allows user to plan their meals at the click of a button.  The color code also alerts users if they have all ingredients needed to cook the recipe or not.</p>
-                            {/* <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
-                            </ul> */}
                         </div>
+                    </div>
+                </section>
+
+                <section id="three" className="main style1 special">
+                    <div className="grid-wrapper">
+                        <div className="col-12">
+                            
+                            
+                            <p className="project-title">GIG-TIME:</p>
+                        </div>
+
+                        <div className="col-4">
+                            <span className="image fit"><img src={gigtime1} alt="" /></span>
+                            <p>Create and manage Gigs, keeping track of time spent on gig as well as client information.</p>
+                        </div>
+                        <div className="col-4">
+                            <span className="image fit"><img src={gigtime2} alt="" /></span>
+                            <p>Add individual tasks in a gig, making a detailed and organized plan for gig completion.</p>
+                            <ul className="actions">
+                                <li><a href="https://www.gig-time.com" className="button" target="_blank">Visit</a></li>
+                            </ul>
+
+                        </div>
+                        <div className="col-4">
+                            <span className="image fit"><img src={gigtime3} alt="" /></span>
+                            <p>Bill your clients based on time spent working on a gig.</p>
+                        </div>
+                        
+                        
+                        
 
                     </div>
                 </section>
+
 
                 <section id="four" className="main style2 special">
                     <div className="container">
                         <header className="major">
                             <h2>Are you interested in building something together?</h2>
                         </header>
-                        {/* <p>please...</p> */}
+                        
                         <ul className="actions uniform">
                             <li><a href="mailto:tiagomaffei@gmail.com" className="button special">Email me</a></li>
-                            {/* <li><a href="#" className="button">Learn More</a></li> */}
+                           
                         </ul>
                     </div>
                 </section>
